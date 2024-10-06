@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header{
+   background-color: #433878;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   width: 100%;
+   z-index: 20000;
+   
+}
+.spacer{
+    height: 80px;
+}
+.head_link{
+    padding: 20px;
+    text-decoration: none;
+    color: #FFE1FF;
+    width: 50px;
+    text-align: center;
+    /*transition: 0.3s linear ;*/
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 5px;
+}
+
+.head_link:hover{
+    color: #7E60BF;
+    background-color: #FFE1FF;
+    border-bottom: 4px solid #7E60BF;
+}
+
+.welcom{
+   
+    background-color: #F7F9F2;
+    height: 500px;
+    position: relative;
+}
+.hi{
+    color: white;
+    width: 70%;
+    height: 45%;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: 'Brush Script MT';
+}
+.pa{
+  
+    width: 85%;
+    height: 25%;
+    text-align: center;
+    
+    font-weight: bold;
+    
+}
+.half1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.picture1{
+  position: absolute;
+  height: 80%;
+  width: 40%;
+ 
+  right: 0px;
+  top: 0px;
+  margin: 40px;
+  
+}
+#pic1{
+    width: 100%;
+    height: 100%;
+}
+
+.busines{
+   height: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #6295A2;
+   flex-direction: column; 
+}
+
+.content1{
+    
+    max-width: 1100px;  /* Can grow up to 900px */
+    width: 100%;       /* Fill its parent container */
+    min-width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction:column ;
+    
+}
+
+.head1{
+    width: 100%;
+    height: 20%;
+    background-color: #088395;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.title{
+    font-family: Verdana;
+    font-size: 45px;
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    color: white;
+}
+.links{
+    
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    float: right;
+    height: 50%;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links_txt{
+    color: white;
+    text-decoration: none;
+}
+.foot1{
+    width: 100%;
+    height: 80%;
+    background-color: #EBF4F6;
+    display: flex;
+}
+
+.content2{
+    background-color: #EBF4F6;
+    max-width: 1100px;  /* Can grow up to 900px */
+    width: 100%;       /* Fill its parent container */
+    min-width: 300px;
+    height: 800px;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.fa-whatsapp{
+    color: rgb(0, 255, 0);
+}
+.fa-brands{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.left{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    width: 65%;
+    height: 80%;
+}
+.right{
+ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic3{
+    width: 75%;
+    height: 100%;
+}
+
+.img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.pic4{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.left_txt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
