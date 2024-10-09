@@ -178,10 +178,13 @@ body{
     right: 20px;
     float: right;
     height: 50%;
-    width: 400px;
+    width: auto;
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    display: flex;
+    
 }
 .links_txt{
     color: white;
@@ -203,6 +206,9 @@ body{
     display: flex;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+.content3{
+  display: none;
 }
 .link{
     display: flex;
@@ -232,6 +238,14 @@ body{
     height: 80%;
 }
 .right{
+ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right2{
  
     width: 50%;
     height: 100%;
@@ -286,4 +300,80 @@ body{
     color:#FFE1FF ;
 }
     
+.half1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.picture1{
+ 
+   display: none;
+  }
+.welcom{
+    display: flex;
+    background-color: #F7F9F2;
+    height: 500px;
+    position: relative;
+}
+.links {
+    width: auto; /* Ensure it doesn't have a large width */
+    right: 20px; /* Keep it close to the right */
+    top: 50%; /* Adjust as needed */
+    transform: translateY(-50%); /* Vertically center */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.links_txt {
+    margin: 0 5px; /* Add some spacing between the links */
+}
+.left{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    width: 65%;
+    height: 80%;
+}
+.right{
+ 
+    display: none;
+}
+.right2{
+    display: none;
+}
+.content2{
+    background-color: #EBF4F6;
+    max-width: 1100px;  /* Can grow up to 900px */
+    width: 100%;       /* Fill its parent container */
+    min-width: 300px;
+    height: 800px;
+    display: flex;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.content3{
+    background-color: #EBF4F6;
+    max-width: 1100px;  /* Can grow up to 900px */
+    width: 100%;       /* Fill its parent container */
+    min-width: 300px;
+    height: 800px;
+    display: flex;
+   
+   border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right2-midle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
