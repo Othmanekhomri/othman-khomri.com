@@ -3,7 +3,13 @@ body{
     overflow-x: hidden;
     position: relative;
 }
-
+#busines_link a{
+    color: #FFE1FF;
+    text-decoration: none;
+}
+#busines_link:hover a{
+    color: #7E60BF;
+}
 .header{
     box-shadow: 0 1px 10px black;
    background-color: #433878;
@@ -76,6 +82,7 @@ ul li{
     height: 80px;
 }
 .head_link{
+    cursor: pointer;
     padding: 20px;
     text-decoration: none;
     color: #FFE1FF;
@@ -90,6 +97,7 @@ ul li{
     color: #7E60BF;
     background-color: #FFE1FF;
     border-bottom: 4px solid #7E60BF;
+    cursor: pointer;
 }
 .head_link:hover{
     color: #7E60BF;
@@ -123,6 +131,7 @@ ul li{
     font-family: "Pacifico", cursive;
     
     font-style: italic;
+    
     
 }
 .half1{
@@ -298,7 +307,7 @@ ul li{
     width: 70%;
     height: 100%;
 }
-
+/*////////////////////////////////////////////////////////////////////////////////////////*/
 @media(max-width:900px) {
     .head_link{
         display: none;
@@ -327,6 +336,7 @@ ul li{
     align-items: center;
     flex-direction: column; 
 }
+
 .picture1{
  
    display: none;
@@ -337,6 +347,7 @@ ul li{
     height: 500px;
     position: relative;
 }
+
 .links {
     width: auto; /* Ensure it doesn't have a large width */
     right: 20px; /* Keep it close to the right */
@@ -359,6 +370,7 @@ ul li{
 .intro{
     width: 65%;
     height: 80%;
+    padding-bottom: 40px;
 }
 .right{
  
