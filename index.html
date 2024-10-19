@@ -10,25 +10,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+
+
 </head>
 <body>
+    <div class="alert" id="alert">
+        <div class="msg_alert" id="msg_alert">
+            <div class="close_alert">
+                <i class="fa-solid fa-x" id="close_alert" style="color: #B197FC;"></i>
+            </div>
+            <div class="para_alert">
+                <p id="p_alert">Sorry to interrupt, I just wanted to say thank 
+                    you for being here. It would be greatly appreciated if you could 
+                    give the developer your feedback</p></div>
+            <div class="next_alert">
+                <i class="fa-solid fa-arrow-right" id="next_alert" style="color: #B197FC;"></i>
+            </div>
+        </div>
+    </div>
     <div class="berger" id="burger"><i class="fa-solid fa-bars"></i></div>
     <div class="all-page" id="all-page">
     <div class="side-bar" id="sidebar">
         <div class="close" id="close_btn"><i class="fa-solid fa-square-xmark " style="color: #B197FC;"></i></div>
         <ul>
-            <li id="busines_link"><a id="link-1" >business</a></li>
-            <li>Gaming</li>
+            <li id="busines_link"><a id="link-1" >Business</a></li>
+            <li id="gaming_link"><a id="link-2" >Gaming</a></li>
             <li>Anime</li>
             <li>Gym</li>
         </ul>
     </div>
    <div class="header">
     
-    <a class="head_link busines_link"  id="busines_link_large">business</a>
-    <a class="head_link" href="">gaming</a>
-    <a class="head_link" href="">anime</a>
-    <a class="head_link" href="">gym</a>
+    <a class="head_link busines_link"  id="busines_link_large">Business</a>
+    <a class="head_link gaming_link" id="gaming_link_large">Gaming</a>
+    <a class="head_link" >anime</a>
+    <a class="head_link" >gym</a>
    </div>
 
    <div class="spacer"></div>
@@ -55,7 +76,7 @@
             
             <div class="link">
                 <i class="fa-brands fa-linkedin" style="color: #3000c0;"></i>
-                <a href="https://www.linkedin.com/in/othman-khomri-a12593237/" class="links_txt">Othman Khomri</a>
+                <a href="https://www.linkedin.com/in/othman-khomri-a12593237/" target="_blank" class="links_txt">Othman Khomri</a>
             </div>
         </div>
        </div>
@@ -153,7 +174,76 @@
 
 
    <!-- gaming-->
-   
+   <div class="gaming" id="gaming">
+     <div class="content1 content_gaming">
+        <div class="head_gaming">
+            <div class="title" id="gaming">Gaming</div>
+             <div class="links">
+            
+               <div class="link">
+                <i class="fa-brands fa-twitch fa-bounce" style="color: #B197FC;"></i>
+                <a href="https://www.twitch.tv/octan_2" class="links_txt" target="_blank">octan_2</a>
+
+            </div>
+            </div>
+        </div>
+        <div class="foot_gaming">
+            <div class="left_gaming">
+                <div class="intro">
+                <h2 style="color: #EBD3F8;font-family: 'Press Start 2P', cursive;font-size: 15px; ">octan_2 : </h2>
+                <div class="para_gaming">
+                    Yooo! What’s up, fam? Thanks for dropping by my site!
+                    My name’s Othman, but most people know me as <span style="color: greenyellow;">octan_2</span>.
+                      I’m all about that streaming life and playing video 
+                      games especially the chill ones with fire gameplay 
+                      and a solid story. I won’t lie, I don’t stream on 
+                      Twitch every day (life, you know?), but when I do,
+                       I’d love for you to come hang out, chat, and maybe
+                        even game with me. Let’s vibe and have some fun together!</div>
+
+                </div>
+            </div>
+
+            <div class="right_gaming">
+                <p style="color: #EBD3F8; font-family: 'Press Start 2P', cursive;">playing curently :</p>
+              <div class="grid_container">
+                <div class="slide_container">
+                    <div class="slide_up">
+                        <div class="slide_pictures pic1">
+
+                        </div>
+                    </div>
+                    <div class="slide_down">
+                           <h3>apex legends</h3>
+                    </div>
+                </div>
+                <div class="slide_container">
+                    <div class="slide_up">
+                        <div class="slide_pictures pic2">
+
+                        </div>
+                    </div>
+                    <div class="slide_down">
+                        <h3>cyberpunck</h3>
+                    </div>
+                </div>
+                <div class="slide_container">
+                    <div class="slide_up">
+                        <div class="slide_pictures pic3">
+
+                        </div>
+                    </div>
+                    <div class="slide_down">
+                        <h3>the finals</h3>
+                    </div>
+                </div>
+                
+              </div>
+
+            </div>
+        </div>
+     </div>
+   </div>
 </div>
     <script src="code.js"></script>
 </body>
