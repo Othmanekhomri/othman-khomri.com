@@ -20,7 +20,7 @@ let p_alert = document.getElementById('p_alert')
 //                               alert code start from here 
 setTimeout(()=>{
    alertt.style.display='flex'
-},2000);
+},15000);
 
 next_alert.onclick=function(){
         p_alert.innerHTML='Thank you!😊'
