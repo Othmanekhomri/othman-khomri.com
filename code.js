@@ -15,13 +15,17 @@ let next_alert = document.getElementById('next_alert')
 let alertt = document.getElementById('alert')
 let msg_alert = document.getElementById('msg_alert')
 let p_alert = document.getElementById('p_alert')
-
+let anime = document.getElementById('anime')
 
 //                               alert code start from here 
+
+if(!sessionStorage.getItem('notif')){
+
 setTimeout(()=>{
    alertt.style.display='flex'
-},15000);
-
+},20000);
+sessionStorage.setItem('notif',true);
+}
 next_alert.onclick=function(){
         p_alert.innerHTML='Thank you!😊'
         next_alert.style.display='none'
