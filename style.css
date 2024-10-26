@@ -138,6 +138,10 @@ ul li{
     margin: 0; 
     list-style-type: none; /* Remove bullet points */
 }
+
+.languages{
+    color: #146572;
+}
 .fa-solid{
     font-size: 35px;
 }
@@ -392,7 +396,7 @@ ul li{
     box-shadow: 0 0 15px rgba(98, 12, 211, 0.7); 
 }
 .gaming{
-    height: auto;
+    /*height: auto;*/
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
@@ -453,6 +457,7 @@ ul li{
     font-size: 20px;
 }
 .grid_container{
+    
     display: grid;
     justify-content: center;
     height: 100%;
@@ -503,12 +508,45 @@ ul li{
 .slide_up .pic3{
     background-image: url(img/the-finals1.jpg);
 }
+
+
+.grid_container_small{
+    display: none;
+}
 /*////////////////////////////////////////////////////////////////////////////////////////*/
 @media(max-width:900px) {
+
+
     .head_link{
         display: none;
     }
 
+    .content1{
+    
+        max-width: 1100px;  /* Can grow up to 900px */
+        width: 100%;       /* Fill its parent container */
+        min-width: 300px;
+        display: flex;
+        flex-direction:column ;
+        
+        
+    }
+    
+    .head1{
+        width: 100%;
+        height: 14%;
+        background-color: #088395;
+        position: relative;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .foot1{
+        width: 100%;
+        height: 86%;
+        background-color: #EBF4F6;
+        display: flex;
+    }
     .berger{
     position: fixed;
     z-index: 90000;
@@ -605,7 +643,7 @@ ul li{
 }
 .foot_gaming{
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     background-color: #420d58;
@@ -614,20 +652,70 @@ ul li{
 .left_gaming{
 
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 .right_gaming{
- 
+    position: relative;
     width: 100%;
-    height: 100%;
-    
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 
+}
+.dots_slider{
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff7c;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
+}
+.dots{
+  border-radius: 50%;
+  background-color: rgba(83, 83, 83, 0.384);
+  border: 1px solid rgb(0, 0, 0);
+  height: 15px;
+  width: 15px;
+  margin: 15px ;
+}
+.back_slide{
+    height: 15px;
+    border-radius: 50%;
+    width: 15px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    left:22.50% ;
+    animation: 9s infinite alternate next_dot;
+}
+@keyframes next_dot {
+    0% {
+        left: 22.50%; 
+    }
+    30% {
+        left:  22.50%; 
+    }
+    35% {
+        left:  46%; 
+    }
+    65% {
+        left:  46%; 
+    }
+    70% {
+        left: 69.50%; 
+    }
+    100% {
+        left: 69.50%; 
+    }
+    
 }
 .content_gaming{
     max-width: 1100px;  /* Can grow up to 900px */
@@ -636,9 +724,6 @@ ul li{
     height: 1000px;
     display: flex;
     flex-direction:column ;
-    
-
-    
 }
 
 .head_gaming{
@@ -649,5 +734,91 @@ ul li{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+.grid_container{
+    display: none;
+}
+
+.grid_container_small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    
+   
+}
+.slide_container_small{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.long_slider{
+    position: absolute;
+    height: 100%;
+    width: 900px;
+    background-color: #420d58;
+    display: flex;
+    animation: 9s infinite alternate next_slide;
+}
+@keyframes next_slide {
+    0% {
+        left: 0; /* Start at the first image */
+    }
+    30% {
+        left: 0; /* Stay on first image for 30% of the time */
+    }
+    35% {
+        left: -300px; /* Move to the second image */
+    }
+    65% {
+        left: -300px; /* Stay on second image for 30% of the time */
+    }
+    70% {
+        left: -600px; /* Move to the third image */
+    }
+    100% {
+        left: -600px; /* Stay on third image for 30% of the time */
+    }
+    
+}
+.slide_content{
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+}
+.slide_up_small{
+    width: 100%;
+    height: 80%;
+   
+   
+}
+.slide_down_small{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(201, 195, 195, 0.9);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 -30px 30px -10px rgba(0, 0, 0, 1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.slide_up_small .pic1{
+    background-image: url(img/apex1.jpg);
+}
+.slide_up_small .pic2{
+    background-image: url(img/cyberpunk1.jpg);
+}
+.slide_up_small .pic3{
+    background-image: url(img/the-finals1.jpg);
+}
+
 
 }
