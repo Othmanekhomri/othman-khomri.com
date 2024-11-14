@@ -23,7 +23,7 @@ if(!sessionStorage.getItem('notif')){
 
 setTimeout(()=>{
    alertt.style.display='flex'
-},20000);
+},200000);
 sessionStorage.setItem('notif',true);
 }
 next_alert.onclick=function(){
