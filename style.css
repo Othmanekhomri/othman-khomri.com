@@ -335,7 +335,100 @@ ul li{
     padding-left: 20px;
     height: 60px;
     font-size: 20px;
+    position: relative;
 }
+
+.food_categ{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.boiled{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(252, 183, 55);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.ml{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(65, 226, 213);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.spoun{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(211, 208, 43);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.ten{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(65, 226, 113);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.boiled_food{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 183, 55);
+}
+
+.ten_food{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 226, 113);
+}
+
+.spoun_food{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 208, 43);
+}
+
+.ml_food{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 226, 213);
+}
+
 .food_content{
     width: 96%;
     background-color: rgb(255, 255, 255);
@@ -476,6 +569,116 @@ ul li{
 .egg{
     background-image: url(img/egg.jpg);
 }
+
+.banana{
+    background-image: url(img/Banana.png);
+}
+
+.apple{
+    background-image: url(img/apple.png);
+}
+
+.orange{
+    background-image: url(img/orange.png);
+}
+
+.avocado{
+    background-image: url(img/avocado.png);
+}
+
+.lemon{
+    background-image: url(img/lemon.png);
+}
+
+.pineapple{
+    background-image: url(img/pineapple.png);
+}
+
+.watermelon{
+    background-image: url(img/watermelon.png);
+}
+
+.blackberry{
+    background-image: url(img/blackberry.png);
+}
+
+.raspberry{
+    background-image: url(img/raspberry.png);
+}
+
+.strawberry{
+    background-image: url(img/strawberry.png);
+}
+
+.popcorn{
+    background-image: url(img/popcorn.png);
+}
+
+.rice{
+    background-image: url(img/white_rice.png);
+}
+
+.yellow_rice{
+    background-image: url(img/yellow_rice.png);
+}
+
+.flour{
+    background-image: url(img/flour.png);
+}
+
+.ble{
+    background-image: url(img/ble.png);
+}
+
+.spagetti{
+    background-image: url(img/spagetti.png);
+}
+
+.pasta{
+    background-image: url(img/pasta.png);
+}
+
+.oatmeal{
+    background-image: url(img/oatmeal.png);
+}
+
+.peanut{
+    background-image: url(img/peanut.png);
+}
+
+.milk{
+    background-image: url(img/milk.png);
+}
+
+.oil{
+    background-image: url(img/oil.png);
+}
+
+.olive_oil{
+    background-image: url(img/olive_oil.png);
+}
+
+.butter{
+    background-image: url(img/butter.png);
+}
+
+.cheese{
+    background-image: url(img/chesse.png);
+}
+
+.vegan_butter{
+    background-image: url(img/vegan_butter.png);
+}
+
+.courgette{
+    background-image: url(img/courget.png);
+}
+
+.mozarela{
+    background-image: url(img/mozzarella.png);
+}
+
+
 
 
 
